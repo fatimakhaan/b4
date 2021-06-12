@@ -58,5 +58,122 @@
       </div>
     </nav>
     
+    <!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 6</div>
+    <img src="/images/maingate.jpeg" style="width:100%">
+    <div class="text">Main Gate</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 6</div>
+    <img src="/images/entrance.jpeg" style="width:100%">
+    <div class="text">Entrance</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 6</div>
+    <img src="/images/nursery1.jpeg" style="width:100%">
+    <div class="text">Front View</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">4 / 6</div>
+    <img src="/images/plants.jpeg" style="width:100%">
+    <div class="text">Plants</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">5 / 6</div>
+    <img src="/images/shed.jpeg" style="width:100%">
+    <div class="text">Shed</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">6 / 6</div>
+    <img src="/images/planting.jpeg" style="width:100%">
+    <div class="text">PLANTING</div>
+  </div>
+
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"  ></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+
+<div class="footer">
+
+
+<div class="about">
+
+<h1>ABOUT US</h1>
+<p>we are selling  the plants on an good rate. i ma very sleepy now so i am telling you about my nursery tommorrow, bye bye plaese i have to say prayes so i have to sleep now. if donot so  i cannot wake up for my prayers.</p>
+</div>
+
+<div class="information">
+  <h1 >INFORMATION</h1>
+  <l1>NUMBER: o322 9087654</li>
+  <ul><a href="www.fatimaalikhan1167@gmail.com">fatimaalikhan1167@gmail.com </a> GMAIL </ul>
+</div>
+
+</div>
+
+
+
+
+<!--
+  <img class="myimage" src="/images/maingate.jpeg" style="width:100%">
+    <img class="myimage" src="/images/entrance.jpeg" style="width:100%">
+    <img class="myimage" src="/images/nursery1.jpeg" style="width:100%">
+    <img class="myimage" src="/images/plants.jpeg" style="width:100%">
+    <img class="myimage" src="/images/shed.jpeg" style="width:100%">
+    <img class="myimage" src="/images/planting.jpeg" style="width:100%">
+
+-->
+
+    
+
+
 </body>
 </html>
