@@ -1,0 +1,22 @@
+{
+  "name": "nursery",
+  "version": "1.0.0",
+  "description": "web app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fatimakhaan/b4.git"
+  },
+  "author": "fatimalikhan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fatimakhaan/b4/issues"
+  },
+  "homepage": "https://github.com/fatimakhaan/b4#readme",
+  "keywords": [
+    "fatima"
+  ]
+}

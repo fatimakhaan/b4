@@ -1,3 +1,8 @@
+.navbar {
+  position: Sticky;
+  top: 0;
+}
+
 .title {
   color: orangered;
 }
